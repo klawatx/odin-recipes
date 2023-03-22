@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Odin Recipes</title>
 </head>
 <body>
     <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/lasagna.html">World's Best Lasagna</a></li>
-        <li><a href="recipes/hamburger_steak.html">Hamburger Steak</a></li>
-        <li><a href="recipes/salmon_cakes.html">Grandma's Famous Salmon Cakes</a></li>
-        </ul>
+    <div class="row">
+        <div class="column"><a href="recipes/lasagna.html"><img src="recipes/images/lasagna.webp"></a>
+        <h3>World's Best Lasagna</h3>
+        <p class="centerPara">This lasagna recipe takes a little work, but it is so satisfying and filling that it's worth it!</p>
+        <br/><button class="returnButton" onclick="window.location.href='recipes/lasagna.html';">Cook This Recipe</button>
+
+    </div>
+        <div class="column"><a href="recipes/hamburger_steak.html"><img src="recipes/images/hamburger_steak.webp"></a>
+        <h3>Hamburger Steak</h3>
+        <p class="centerPara">Tasty hamburger "steaks" smothered in gravy and onions. Serve with hot rice or potatoes for an easy-to-make dinner classic. It's a great way to dress up a pound of ground beef and you probably have all the ingredients on hand!</p>
+        <br/><button class="returnButton" onclick="window.location.href='recipes/hamburger_steak.html';">Cook This Recipe</button>
+
+    </div>
+        <div class="column"><a href="recipes/salmon_cakes.html"><img src="recipes/images/salmon_cakes.webp"></a>
+        <h3>Grandma's Famous Salmon Cakes</h3>
+        <p class="centerPara">Wondering how to make salmon cakes? This is a recipe for my grandmother's famous salmon cakes. It's a family recipe that has been passed down through generations. Serve them with macaroni and cheese or any other type of side dish.</p>
+        <br/><button class="returnButton" onclick="window.location.href='recipes/salmon_cakes.html';">Cook This Recipe</button>
+    </div>
+        </div>
 
 </body>
 </html>
